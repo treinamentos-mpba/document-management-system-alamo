@@ -12,7 +12,7 @@
 
 const express = require('express');
 const multer = require('multer');
-const documentRoutes = require('./routes/documentRoutes');
+const documentRoutes = require('./routes/document.routes');
 const AppError = require('./errors');
 
 const app = express();

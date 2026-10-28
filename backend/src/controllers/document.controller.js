@@ -1,5 +1,5 @@
 const AppError = require('../errors');
-const documentService = require('../services/documentService');
+const documentService = require('../services/document.service');
 
 function requireUserId(req, res, next) {
   const userId = req.get('X-User-ID');

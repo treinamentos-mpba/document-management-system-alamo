@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const express = require('express');
 const multer = require('multer');
-const documentController = require('../controllers/documentController');
+const documentController = require('../controllers/document.controller');
 
 const router = express.Router();
 const storageDirectory = path.resolve(__dirname, '../../storage');

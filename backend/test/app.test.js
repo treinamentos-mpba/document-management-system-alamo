@@ -3,7 +3,7 @@ const assert = require('node:assert');
 const { once } = require('node:events');
 const { randomUUID } = require('node:crypto');
 const app = require('../src/app');
-const documentRepository = require('../src/repositories/documentRepository');
+const documentRepository = require('../src/repositories/document.repository');
 
 async function startServer(t) {
   const server = app.listen(0);
